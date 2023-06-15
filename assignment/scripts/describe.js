@@ -26,7 +26,7 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
+// We declare a variable called name and set its value to the string called 'Dane'.
 // 
 // 
 //
