@@ -27,9 +27,9 @@ if (number >= 2) {
 
 // 1. WRITE YOUR DESCRIPTION HERE
 // We declare a variable called name and set its value to the string called 'Dane'.
-// Then we check to see if the name variable is an exact match to the string 'Mary'; if this proves to be so, we console.log 'Hi, Mary!'.
+// Then we create a conditional to check to see if the name variable is an exact match to the string 'Mary'; if this proves to be so, we console.log 'Hi, Mary!'.
 // Should that condition fail to be met, we console.log 'How do you do?'.
-// Since the strings 'Mary' and 'Dane" are not exact matches, we console.log 'How do you do?'.
+// Since the strings 'Mary' and 'Dane" are not exact matches, we would get the console.log 'How do you do?' in our console.
 
 //CODE
 /*
@@ -46,9 +46,10 @@ if (name === 'Mary') {
 
 // 2. WRITE YOUR DESCRIPTION HERE
 // We declare a variable called secret. We declare another variable called code with a value set to the number 123.
-// 
-// 
-//
+// We create a conditional where if the variable code is an exact match to the number 123, the value of variable called secret shall be set to the string named 'super',
+// whereas the value of the variable code shall multiply by 2. We create another conditional where if the updated value of the vairable code is greater than the number 250,
+// then the variable secret shall be assigned the value of the string named 'duper'.
+// We then console.log the variable secret and are prompted with the string named 'super' in our console since the updated number value of code is now 246... not greater than 250.
 
 //CODE
 /*
@@ -70,9 +71,9 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// We declare a variable called isStudent and assign it the boolean value of true. We decalre abother vairable called age and assign it the number value of 34.
+// We declare another variable called zip and assign it the number value of 55407. We create a compound conditional where if the variable isStudent is an exact match to its
+// inital boolean value
 //
 
 //CODE
