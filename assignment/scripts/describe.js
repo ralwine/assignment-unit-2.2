@@ -27,9 +27,9 @@ if (number >= 2) {
 
 // 1. WRITE YOUR DESCRIPTION HERE
 // We declare a variable called name and set its value to the string called 'Dane'.
-// 
-// 
-//
+// Then we check to see if the name variable is an exact match to the string 'Mary'; if this proves to be so, we console.log 'Hi, Mary!'.
+// Should that condition fail to be met, we console.log 'How do you do?'.
+// Since the strings 'Mary' and 'Dane" are not exact matches, we console.log 'How do you do?'.
 
 //CODE
 /*
@@ -45,7 +45,7 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
+// We declare a variable called secret. We declare another variable called code with a value set to the number 123.
 // 
 // 
 //
