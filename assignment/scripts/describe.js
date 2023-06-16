@@ -73,8 +73,11 @@ console.log(secret)
 // 3. WRITE YOUR DESCRIPTION HERE
 // We declare a variable called isStudent and assign it the boolean value of true. We decalre abother vairable called age and assign it the number value of 34.
 // We declare another variable called zip and assign it the number value of 55407. We create a compound conditional where if the variable isStudent is an exact match to its
-// inital boolean value
-//
+// inital boolean value of true AND the number value of the variable zip is greater than 80000; we will console.log 'You're a student on the West Coast!'.
+// Should that not check out we create another compound conditional where either the variable isStudent boolean value is false or the vairable age is a number value less than 30 and
+// we console.log 'What are your hobbies?'. We also create another if the variable isStudent is the boolean value of true on its own, we console.log 'Welcome to Prime!'.
+// If none of these condtions check out we create a final condition where we console.log out 'How about the weather?'.
+// If we are to run this code as is, our console will log out 'Welcome to Prime'.
 
 //CODE
 /*
