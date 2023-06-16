@@ -125,7 +125,7 @@ if (number >= 2) {
   console.log('yes');
 }
 
-*/
+*/ 
 
 
 
@@ -133,7 +133,10 @@ if (number >= 2) {
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true 
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
-/*
+// This is a bit confusing. Why would only the vaiable of colorOne change to 'purple' in the conditional? Either add "colorTwo = 'purple'" to the conditional,
+// or replace the statement with "colorThree = 'purple'" or even "mix = 'purple'".
+
+/* 
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
@@ -147,6 +150,8 @@ if (mix === true) {
 // We check if temp is higher than 39 and if time is greater or equal to  4 
 // -- they are so we console.log 'throw away the food!'
 
+//  Both conditions must be true in this compound condtional; '||' means an either/or situation, so this must be replaced with '&&'.
+
 /*
 let temp = 40;
 const time = 4;
@@ -154,11 +159,14 @@ const time = 4;
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
-*/
+*/ 
 
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
 // We check if age is greater than or equal to minAge 
 // -- it is, so we console.log 'enter'.
+
+//  It appears that we are checking to see if the vairable minAge is less than or equal to the vairable age.
+// Conditional should be written as "if (age >= minAge)" instead.
 
 /*
 let age = 21;
