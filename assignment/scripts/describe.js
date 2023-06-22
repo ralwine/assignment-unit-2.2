@@ -173,9 +173,9 @@ let age = 21;
 const minAge = 21;
 
 if(minAge <= age) {
-  console.log('no entry');
-} else {
   console.log('enter');
+} else {
+  console.log('no entry');
 }
 */
 
