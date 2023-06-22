@@ -133,8 +133,9 @@ if (number >= 2) {
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true 
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
-// This is a bit confusing. Why would only the vaiable of colorOne change to 'purple' in the conditional? Either add "colorTwo = 'purple'" to the conditional,
-// or replace the statement with "colorThree = 'purple'" or even "mix = 'purple'".
+// With the code written as it is, if we were to console.log the colorTwo variable, it would still return a value of 'blue'.
+// In order to change the value of colorTwo to 'purple' the code must be changed as follows:
+// colorOne, colorTwo = 'purple';.
 
 /* 
 let colorOne = 'red';
