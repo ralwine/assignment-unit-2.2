@@ -133,9 +133,9 @@ if (number >= 2) {
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true 
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
-// With the code written as it is, if we were to console.log the colorTwo variable, it would still return a value of 'blue'.
-// In order to change the value of colorTwo to 'purple' the code must be changed as follows:
-// colorOne, colorTwo = 'purple';.
+// First of all, the string values of colorOne and colorTwo need to be swapped based on the description above (maybe that's just a typo).
+//Regardless, with the code written as it is, if we were to console.log the colorOne and colorTwo variables after the conditional, it would still return its intial value.
+// If we were to state "colorOne = colorTwo = 'purple';" just ahead of the conditional, the code will work.
 
 /* 
 let colorOne = 'red';
